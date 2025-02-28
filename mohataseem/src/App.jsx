@@ -5,6 +5,7 @@ import Photosec from './sections/photosec/photosec';
 import Projects from './sections/Projects/Projects';
 import Skills from './sections/Skills/Skills';
 
+// mohataseem khan
 function App() {
   return (
     <>
