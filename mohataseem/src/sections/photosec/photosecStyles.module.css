@@ -83,7 +83,7 @@
     align-items: center;
     justify-content: space-evenly;
 
-    .hero {
+    .phootu {
       max-width: 350px;
       width: 350px;
     }
@@ -92,7 +92,7 @@
 
 @media (width >= 1400px) {
   .container {
-    .hero {
+    .phootu {
       max-width: 400px;
       width: 400px;
     }
