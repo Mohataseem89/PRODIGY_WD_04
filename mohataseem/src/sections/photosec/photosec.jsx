@@ -1,5 +1,5 @@
 import styles from './photosecStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import me from '../../assets/mohataseem.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -20,11 +20,11 @@ function Photosec() {
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
   return (
-    <section id="hero" className={styles.container}>
+    <section id="phootu" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
-          src={heroImg}
-          className={styles.hero}
+          src={me}
+          className={styles.phootu}
           alt="Profile picture of mohataseem khan"
         />
         <img

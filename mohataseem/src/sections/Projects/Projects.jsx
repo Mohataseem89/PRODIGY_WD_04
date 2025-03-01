@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import Moseeqi from '../../assets/music.png';
+import flix from '../../assets/netflix.png';
+import webpage from '../../assets/htcss.png';
+import weather from '../../assets/weather.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,26 +11,26 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={Moseeqi}
           link="https://github.com/Mohataseem89/Moseeqi-a-music-player"
           h3="Moseeqi"
           p="A musique player"
         />
         <ProjectCard
-          src={freshBurger}
+          src={flix}
           // src={netflix}
           link="https://github.com/Mohataseem89/Netflix-UI-clone"
           h3="Netflix"
           p="Netflix-UI-Clone"
         />
         <ProjectCard
-          src={hipsster}
+          src={webpage}
           link="https://github.com/Mohataseem89/a_webpage"
           h3="A_Webpage"
           p="A Landing Page"
         />
         <ProjectCard
-          src={fitLift}
+          src={weather}
           link="https://github.com/taslimansari/weather-forecast-js"
           h3="weather-forecast-js"
           p="Weather App"
