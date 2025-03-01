@@ -1,8 +1,9 @@
+/* for Light & Dark Mode */
 :root {
   --background-color: #fff;
   --btn-color: #0987f2;
   --btn-text-color: #fff;
-  --project-card-bg: #ffffff00;
+  --project-card-bg: transparent;
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
@@ -18,91 +19,87 @@
   --footer-text-color: #bbb;
 }
 
+
 body {
   background-color: var(--background-color);
   display: flex;
   justify-content: center;
-  margin: 0 auto 60px;
+  margin: 0 auto 3.75rem;
+  font-family: 'Roboto Mono', monospace;
 }
 
+ 
 #root {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 3.75rem;
 }
 
-h1,
-h2,
-h3,
-p {
+
+h1, h2, h3, p {
   color: var(--text-color);
   margin: 0;
   padding: 0;
 }
 
-h2,
-h3,
-p {
-  font-family: 'Roboto Mono', monospace;
-}
-
-h1,
-h2 {
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
-h2,
-h3 {
-  font-size: 20px;
-}
-
-h1 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 32px;
+h2, h3 {
+  font-size: 1.25rem;
+  text-transform: uppercase;
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
 }
 
+/* Utilities */
 .sectionTitle {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .hover {
   cursor: pointer;
 }
 
-@media (width >= 800px) {
+/* for responsiveness */
+@media (min-width: 800px) {
   #root {
-    gap: 100px;
+    gap: 6.25rem;
   }
+
   h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
-  h2,
-  h3 {
-    font-size: 24px;
+
+  h2, h3 {
+    font-size: 1.5rem;
   }
+
   p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .sectionTitle {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  #root {
+    gap: 12.5rem;
   }
 
-  @media (width >= 1400px) {
-    #root {
-      gap: 200px;
-    }
-    h1 {
-      font-size: 48px;
-    }
+  h1 {
+    font-size: 3rem;
+  }
 
-    .sectionTitle {
-      margin-bottom: 75px;
-    }
+  .sectionTitle {
+    margin-bottom: 4.6875rem;
   }
 }
