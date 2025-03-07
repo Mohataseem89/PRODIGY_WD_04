@@ -1,4 +1,4 @@
-# PRODIGY_WD_04
+# Portfolio
 This portfolio website is a modern, responsive, and dynamic platform built using React.js, designed to showcase personal or professional projects, skills, and experience. It offers a clean and interactive user experience with smooth animations and optimized performance.
 
 
